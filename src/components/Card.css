@@ -1,0 +1,21 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: solid red;
+    width: 280px;
+    overflow: hidden;
+}
+
+.card h2,
+.card p {
+    margin: 10px 10px;
+    /* padding: 0 10px; */
+}
+
+.card .btn{
+    /* align-items:center;
+    justify-content: center;
+    justify-content: center;
+    align-content: center; */
+}
