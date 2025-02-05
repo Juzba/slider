@@ -10,16 +10,18 @@ const Card = () => {
 	const { image, title, description } = data[filmCount];
 
 	const switchFilm = () => {
-		console.log(filmCount);
 		if (filmCount > data.length - 1) filmCount = 0;
 		else if (filmCount < 0) filmCount = data.length - 1;
 
 		setFilmCount(filmCount);
 	};
 
+    
 	return (
 		<div className='card'>
-			<img src={image} alt={title}></img>
+			<div className="imgContainer">
+				<img src={image} alt={title}></img>
+			</div>
 			<h2>{title}</h2>
 			<p>{description}</p>
 			<div className='buttons'>

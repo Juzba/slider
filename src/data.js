@@ -41,6 +41,24 @@ const allMovies = [
         description: "Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nulla quis diam. Nulla pulvinar eleifend sem. Maecenas lorem. Fusce suscipit libero eget.",
         category: "romantický"
     },
+    {
+        id: 5,
+        image: image3,
+        title: "Rocknrolla23",
+        age: "+16",
+        tags: "Gangster * Napínavý * Násilí",
+        description: "Nulla pulvinar eleifend sem. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Nam libero tempore, cum soluta",
+        category: "romantický"
+    },
+    {
+        id: 6,
+        image: image4,
+        title: "Patriot23",
+        age: "+16",
+        tags: "Gangster * Napínavý * Násilí",
+        description: "Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nulla quis diam. Nulla pulvinar eleifend sem. Maecenas lorem. Fusce suscipit libero eget.",
+        category: "romantický"
+    },
 ]
 
 
