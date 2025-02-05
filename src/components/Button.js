@@ -1,7 +1,7 @@
 import "./Button.css"
 
-const Button = () => {
-    return <button>Click</button>;
+const Button = ({icon, switchFilm}) => {
+    return <button onClick={switchFilm} className="btn">{icon}</button>;
 };
 
 export default Button;
